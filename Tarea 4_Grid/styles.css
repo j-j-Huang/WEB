@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:white;
+    transition: color 0.3s;
+}
+@media (max-width: 1200px) {
+    .item ,p{ color: red; }
+}
+
+@media (max-width: 800px) {
+    .item,p { color: blue; }
+}
+
+@media (max-width: 600px) {
+    .item ,p{ color: green; }
+}
+
+
+
+/* Contenedor con Grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas iguales */
+    grid-gap: 20px; /* Espacio entre celdas */
+    max-width: 1200px; /* Evita que se haga demasiado grande */
+    width: 80%;
+    margin: 20px auto; /* Centra el contenedor */
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Elementos dentro del Grid */
+.item {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2vw; /* Corrige el error de font-style */
+    border: 1px solid #ccc;
+}

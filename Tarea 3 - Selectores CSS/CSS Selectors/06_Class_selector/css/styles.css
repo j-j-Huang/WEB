@@ -1,0 +1,5 @@
+/* Seleecciona elementos con una clase especifica
+Todo los elementos con class="ejemplo" sera afectados*/
+.ejemplo{
+    color: green;
+}

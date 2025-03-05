@@ -1,0 +1,9 @@
+/*Selecciona elementos cuyo atributo termina con un valor especifico
+solo afecta a imagenes con png */
+img[src$=".png"]{
+    border: 10px solid green;
+}
+
+img{
+size: 30%;
+}

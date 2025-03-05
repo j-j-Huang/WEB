@@ -1,0 +1,5 @@
+/*Selecciona un elemento si es el unico de su tipo dentro de su padre 
+Se aplica solo si no hay otros elementos del mismo tipo en el padre*/
+p:only-of-type{
+    color:brown;
+}

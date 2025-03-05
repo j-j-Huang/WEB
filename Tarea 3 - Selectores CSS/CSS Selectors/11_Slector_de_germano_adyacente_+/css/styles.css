@@ -1,0 +1,5 @@
+/*Selecciona el primer hermano que siguen inmediatamente despues de otro
+Solo afecta al primer <p> que sigue a <h1> */
+h1 + p {
+    color:pink
+}

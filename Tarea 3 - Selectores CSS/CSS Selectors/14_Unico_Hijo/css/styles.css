@@ -1,0 +1,5 @@
+/* Seleccina un elemnto si el unico hijo de su padre 
+Se aplica solo si hay un hermano */
+p:only-child{
+    color: blue;
+}

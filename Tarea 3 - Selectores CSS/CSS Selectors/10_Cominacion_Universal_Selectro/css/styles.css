@@ -1,0 +1,6 @@
+/*Selecciona todos los elementos dentro de un ID
+Aplica a todos los elementos dentro de #Ejemplo*/
+#Ejemplo * {
+    color: green;
+  }
+  

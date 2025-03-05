@@ -1,0 +1,9 @@
+/*Selecciona elementos sin contenido ni espacios
+Solo aplica elementos completamente vacios*/
+
+p:empty{
+    border: 1px  black;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}

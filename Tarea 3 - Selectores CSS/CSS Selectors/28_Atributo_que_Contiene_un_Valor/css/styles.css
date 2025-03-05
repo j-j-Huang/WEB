@@ -1,0 +1,5 @@
+/*Selecciona elementos cuuyo atributo contiene un valor especifico en cualquier parte
+Afecta a elemento cuya clase contiene la palabra Ejemplo2, sin importat su posicion en la cadena*/
+div[class*="Ejemplo2"]{
+    background: yellow;
+}

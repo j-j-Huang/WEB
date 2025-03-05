@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/dark_mode.css">
+</head>
+<body>
+    <header>
+        <h2>Menu de navegacion</h2>
+        <nav>
+            <ol class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre mí</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <h2 class="fondo">La importancia del aprendizaje continuo</h2>
+    <p>En el mundo de la tecnología, nunca dejamos de aprender...</p>
+    <p>Aprender nuevas herramientas y lenguajes nos mantiene actualizados y nos permite crecer profesionalmente...</p>
+    <br>
+    <h2 class="fondo">Por que me gusta el desarrollo web</h2>
+    <p>El desarrollo web me permite dar vida a mis ideas y solucionar problemas reales...</p>
+    <p>Desde que escribí mi primera línea de código, supe que esto era lo mío...</p>
+    <br>
+
+    <h3 class="fondo">Comentario</h3>
+    <textarea name="" id="input" style="min-height: 50px;width: 30%;"></textarea>
+    
+    <br>
+    <button onclick="borrarTexto()"> Enviar </button>
+    <script>
+        function borrarTexto() {
+            document.getElementById("input").value = ""; // Borra el contenido del textarea
+        }
+    </script>
+<!Blak mode >
+    <button class="cambiar" onclick="cambiar()"> Cambiar tema</button>
+    <script>
+        function cambiar() {
+            document.body.classList.toggle("dark-mode");
+
+            if (document.body.classList.contains("dark-mode")) {
+                localStorage.setItem("theme", "dark");
+            } else {
+                localStorage.setItem("theme", "light");
+            }
+        }
+
+
+        if (localStorage.getItem("theme") === "dark") {
+            document.body.classList.add("dark-mode");
+        }
+    </script>
+</body>
+</html>

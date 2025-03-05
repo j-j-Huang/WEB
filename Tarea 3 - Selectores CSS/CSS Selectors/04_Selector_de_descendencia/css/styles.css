@@ -1,0 +1,5 @@
+/* Selecciona todos los elementos dentro de otro,sin importar la profundidad*/
+/* Todos los <p> dentreo del <div> var ser color rojo*/
+div p{
+    color: red;
+}

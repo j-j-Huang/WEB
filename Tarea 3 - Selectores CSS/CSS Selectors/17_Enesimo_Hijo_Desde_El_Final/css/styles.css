@@ -1,0 +1,5 @@
+/*Selecciona el hijo numero n, contando desde el final
+Cuenta desde el final y afecta al segundo*/ 
+p:nth-last-child(2){
+    color: purple;
+}

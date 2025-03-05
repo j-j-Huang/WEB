@@ -1,0 +1,13 @@
+/* Selecciona todos los elementos de un tipo especifico*/
+/* Modificar el color del encabezado a VERDE */
+h1 {
+  color: green;
+}
+/* Modificar el color del subencabezado a AZUL */
+h2 {
+  color: blue;
+}
+/* Resaltar el párrafo */
+p {
+  font-weight: bold;
+}

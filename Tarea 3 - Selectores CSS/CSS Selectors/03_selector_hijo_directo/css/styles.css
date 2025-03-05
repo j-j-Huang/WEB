@@ -1,0 +1,6 @@
+/*  
+Resaltar el párrafo por medio de Clase */
+section > p {
+  font-weight: bold;
+  color: blue;
+}

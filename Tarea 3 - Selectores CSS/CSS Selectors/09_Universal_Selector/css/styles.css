@@ -1,0 +1,18 @@
+/* Selecciona todos los elementos de la pagina
+mucho se usa para elemina el marge y el padding de todo los elementos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.E1{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.E2{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+}

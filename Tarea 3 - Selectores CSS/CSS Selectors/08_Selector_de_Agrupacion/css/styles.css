@@ -1,0 +1,5 @@
+/* Selecciona multiples elementos separados por comas
+Aplica a todos los elemento que esta ahi menos el <p>*/
+h1,h2,div{
+    color: blue;
+}

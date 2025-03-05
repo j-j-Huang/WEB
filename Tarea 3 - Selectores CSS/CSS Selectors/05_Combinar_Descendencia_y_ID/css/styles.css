@@ -1,0 +1,5 @@
+/* Selecciona elementos indicado dentro de un ID especifico
+Solo los <p> dentro del #ejemplo seran azul*/
+#ejemplo p{
+    color: blue;
+}

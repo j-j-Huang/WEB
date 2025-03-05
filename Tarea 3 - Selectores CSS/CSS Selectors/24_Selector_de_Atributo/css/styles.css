@@ -1,0 +1,5 @@
+/*Selecciona elementos que tienen un atrinitp especifico
+Se aplica solo a inputs con el atributo disabled*/
+input[disabled]{
+    background: lightgray;
+}

@@ -1,0 +1,5 @@
+/* Selecciona el primer hijo de su padre
+Solo el primer <p> dentreo del <div> sera rojo*/
+p:first-child{
+    color: brown;
+}

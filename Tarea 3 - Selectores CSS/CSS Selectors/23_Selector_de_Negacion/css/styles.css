@@ -1,0 +1,6 @@
+/*Excluye elementos que coincidan con el selector dentreo de :not()
+Todos los <p>, excepto los de la clase .Ejemplo sera rosa
+*/
+p:not(.Ejemplo){
+    color: pink;
+}

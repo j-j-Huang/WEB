@@ -1,0 +1,5 @@
+/*Selecciona todos los hermanos que siguen despues de un elemento
+Todos los <p> despues de <h1> sera rosa */
+h1 ~ p {
+    color: pink;
+}

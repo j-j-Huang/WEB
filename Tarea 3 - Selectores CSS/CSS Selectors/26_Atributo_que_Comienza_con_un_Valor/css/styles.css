@@ -1,0 +1,5 @@
+/*Selecciona elementos cuyo atributo empieza con un valor especifico 
+Solo los enlaces que comiencen con https sera azules */
+a[href^="https"]{
+    color: red;
+}

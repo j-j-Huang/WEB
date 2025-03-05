@@ -1,0 +1,5 @@
+/*Selecciona el enesimo elemento de un tipo especifico dentreo de su padre
+Solo afecta al primer <p> de su tipo dentreo del <div> */
+p:nth-of-type(2){
+    color: pink;
+}

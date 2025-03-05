@@ -1,0 +1,5 @@
+/*Selecciona el hijo numero n dentro de su parde
+Solo afecta al segundo <p> dentro del <div> */
+p:nth-child(2){
+    color: purple;
+}

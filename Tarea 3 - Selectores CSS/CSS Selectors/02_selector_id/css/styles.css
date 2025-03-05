@@ -1,0 +1,5 @@
+/* Selecciona un elemento con un id especifico. Los id deben ser unicos en la pagina 
+ Resaltar el párrafo por medio de ID */
+p#resaltado {
+  font-weight: bold;
+}

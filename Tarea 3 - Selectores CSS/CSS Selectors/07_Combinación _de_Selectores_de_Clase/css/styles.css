@@ -1,0 +1,6 @@
+/* Selecciona elementos que tengan varias clases 
+solo se aplica si el elemento tiene ambas clases*/
+.ejemplo.comb{
+    color: red;
+}
+

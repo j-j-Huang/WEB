@@ -1,0 +1,31 @@
+
+
+/* Modo oscuro */
+body.dark-mode {
+    background-color: #121212;
+    color: white; /* Se aplica a todo el texto */
+}
+
+/* Botón */
+.cambiar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cambiar:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode p{
+    color:white;
+}

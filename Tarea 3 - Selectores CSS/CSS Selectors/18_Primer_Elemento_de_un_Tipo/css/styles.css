@@ -1,0 +1,6 @@
+/*Seleccion el primer elemento de un tipo especifico dentreo de su padre
+Solo afecta al primemr <p> de su tipo dentreo del <div>*/
+
+p:first-of-type{
+    color:red ;
+}

@@ -1,0 +1,5 @@
+/*Selecciona el ultimo elemento de un tipo especifico dentreo de su padre
+Solo el ultimo <p> dentro del div sera afectado*/
+p:last-of-type{
+    color:yellow;
+}

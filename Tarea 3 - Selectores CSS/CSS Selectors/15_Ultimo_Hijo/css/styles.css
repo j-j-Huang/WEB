@@ -1,0 +1,5 @@
+/*Selecciona el ultimo hijo de su padre
+Solo afecta al utimo <p> dentro del <div> */
+p:last-child{
+    color: gray;
+}
