@@ -54,7 +54,7 @@ buttons.forEach((button) => {
                 updateDisplay("");
                 shouldClearDisplay = false;
             }
-            if (display.textContent.length >= 10) return;
+            if (display.textContent.length >= 17) return;
             updateDisplay(display.textContent + buttonText);
             cambiarColorTexto(); // Cambiar el color del texto al hacer clic en un número
         } else if (buttonText === "." && !display.textContent.includes(".")) {

@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    text-align: right;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#mensajeError {
+    margin-top: 20px;
+    font-size: 14px;
+    color: red;
+}
