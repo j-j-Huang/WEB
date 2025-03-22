@@ -1,3 +1,4 @@
+from flask import Flask, json
 # 1- Función para agregar una clave-valor a un diccionario.
 print(1)
 def agregar_clave_valor(diccionario, clave, valor):
@@ -188,3 +189,10 @@ def imprimir_conjunto(conjunto):
 
 mi_conjunto = {10, 20, 30, 40, 50}
 imprimir_conjunto(mi_conjunto)
+app = Flask(__name__)
+@app.route("/dict/<path:diccio>")
+def show_diccionario(diccio):
+    diccionario = json.loads(diccio)
+    for clave, valor in diccionario.items():
+        print(f"{clave}: {valor}")
+    return diccionario
